@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+
+    <title> Explore the world! </title>
+    
+    <!-- Meta tags for SEO and social sharing -->
+       <meta
+      property="og:description"
+      content="A platform built to let traveler shared their trip experience.
+               Sharing picture, video, tips and many more."/>
+    
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+    <body>
+      <main>
+    <!-- The wrapper and content divs set margins and positioning -->
+        <div class="wrapper">
+          <div class="content" role="main">
+       
+            <!-- This is the start of content for our page -->
+     <section>
+      <h1 class="title"> Travel the World! </h1>
+        <hr style="800" color="#888FFF">
+      </section>
+            
+    <!-- Introduction -->
+      <div class="introduction">
+        <section>
+          <h2 class="hi"> Hi there! </h2>
+          <p>
+            Welcome on my travel platform. <br/> 
+            A simple platform that you can share your travel experience, dream trip, travel videos, suggestion, etc.
+          </p>
+         </section>
+          
+    <!-- About me -->
+       <section>
+        <h2 class="me">About me</h2>
+          <p>
+            My name is Gabriella. Born and grew up in Jakarta, Indonesia. 
+              <br/>
+                <strong>I'm a travel addict!</strong> To follow my passion I went to a tourism school and directly worked at travel agent as a travel consultant.
+            <br/><br/>
+          </p>
+         </section>
+                  
+    <!-- CHASING DREAM -->
+      <section>
+        <h4> CHASING DREAM </h4>
+            <p>
+              Eventhough working in a travel agency was <em>the job of my life</em>, <b>I resigned!</b> to chase my travel's dream; 
+              <b>Solo traveling in Asia for three months</b>.
+                <br/>
+    <!-- TABLE OF COUNTRY LIST -->
+            <table class="country" border="1"> 
+          <tr align="center">
+              <th colspan="2">COUNTRY LIST OF MY FIRST SOLO TRIP ADVENTURE</th>
+          </tr>
+              <tr>
+                <th>COUNTRY</th><th>METHOD</th>
+              </tr>
+            <tr>
+                <td>Singapore</td><td>Flight</td>
+            </tr>
+            <tr>
+                <td>Malaysia</td><td>Overland</td>
+            </tr>
+            <tr>
+                <td>Thailand</td><td>Overland</td>
+            </tr>
+            <tr>
+                <td>Hongkong</td><td>Flight</td>
+            </tr>
+            <tr>
+                <td>Macau</td><td>Overland</td>
+            </tr>
+            <tr>
+                <td>India</td><td>Flight</td>
+            </tr>
+            <tr>
+                <td>Kashmir</td><td>Overland</td>
+            </tr>
+          </table>
+              <br/>
+        
+    <!-- Figure tag (learnt from freecodecamp)
+          I prefer to use [<figure>] 
+            because it's more organized while putting img or video with caption in html
+    -->
+              <figure>
+                <img 
+                  height="200"
+                  width="300"
+                  src="https://fastly.picsum.photos/id/342/2896/1944.jpg?hmac=_2cYDHi2iG1XY53gvXOrhrEWIP5R5OJlP7ySYYCA0QA"
+                  alt="illustration picture of a solo traveler abroad">
+                  <figcaption> Solo traveler on a sunny day in Asia </figcaption>
+             </figure>         
+            </p>
+          </section>
+            
+    <!-- SOME TRAVEL VIDEOS -->
+      <section>
+        <h4> GOLD </h4>
+          <p1 class="gold">
+            As a normal human being one day I will probably missed the moment I traveled.<br/>
+              Having documentation such as; Photos and videos are <b>GOLD</b> for me!
+              Here's some of my <em>GOLD</em>:
+            <br/><br/>
+            
+      <!-- Embedded video from my own youtube channel-->
+          <figure>
+        <!-- video 1 -->
+               <iframe 
+                   width="560" 
+                   height="315" 
+                   src="https://www.youtube.com/embed/w2CArWZtMJ8" 
+                   title="YouTube video player" 
+                   frameborder="0" 
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                   alt="youtube travel video of Gabriella in Jordan">
+                </iframe>
+            
+            <figcaption>
+              <em>My <b>first</b> middle east trip, Jordan 2021.</em>
+            </figcaption>
+            
+              <br/><br/>
+          <!-- video 2 -->
+              <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/2Y7ri5WtkLw" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                    alt="youtube travel video of Gabriella in Vienna">
+                </iframe>
+            
+              <figcaption>
+                <em>Christmas market hunting, Vienna 2019.</em>
+              </figcaption>
+            
+            </figure>
+          <br/><br/>
+        </p1>
+        
+        <p2>
+          Here's the youtube link; <em>Just in case you can't play videos above</em>
+            <ol>
+              <li>
+                <a href="https://youtu.be/w2CArWZtMJ8" target="_blank">
+                  <b>Solo trip to Jordan 2021</b>
+                </a>
+              </li>
+                <li>
+                  <a
+                    href="https://youtu.be/2Y7ri5WtkLw"
+                    target="_blank">
+                  <b>Vienna Christmas Market 2019</b>
+                </a>
+              </li>
+            </ol>
+          </p2>
+        </section> 
+            
+    <!-- SHARE YOUR TRAVEL MEMORIES -->
+    <section>
+      <h2 class="share">Share your travel memories with us!</h2>
+      
+        <form action="https://google.com">
+    <!-- Single selection answer -->
+          <fieldset class="doc">
+            <legend> Favorite kind of documentation </legend>
+            <label>
+              <input 
+                     class="Pictures" 
+                     type="radio" 
+                     name="indoor-outdoor" 
+                     value="Pictures" 
+                     checked> Pictures </label>
+            <label>
+              <input 
+                     class="Video" 
+                     type="radio" 
+                     name="indoor-outdoor" 
+                     value="Video"> Video </label>
+          </fieldset>
+          
+    <!-- Checkbox multiple answer -->
+          <fieldset class="personality">
+        <!-- Checkbox nr.1 -->
+            <legend> Travel personality? </legend>
+            <input 
+                   class="Solo traveler" 
+                   type="checkbox" 
+                   name="personality" 
+                   value="Solo traveler" checked> 
+              <label for="Solo traveler"> Solo traveler </label>
+        <!-- Checkbox nr.2 -->  
+            <input 
+                   class="Group traveler" 
+                   type="checkbox" 
+                   name="personality" 
+                   value="Group traveler"> 
+              <label for="Group traveler"> Group traveler </label>
+        <!-- Checkbox nr.3 -->
+            <input 
+                   class="Family traveler" 
+                   type="checkbox" 
+                   name="personality" 
+                   value="Family traveler"> 
+              <label for="Family traveler"> Family traveler </label>
+          </fieldset>
+          
+        <!-- Submit area with requirement command to make sure
+              the participant submit their name and email address
+        --> 
+            <!-- Name area -->
+          <input
+                 type="text" 
+                 name="Your name" 
+                 placeholder="Your name" required>
+            <!-- Email area -->
+          <input 
+                 type="text" 
+                 name="Your email" 
+                 placeholder="Your email address" required>
+            <!-- The submit button -->
+          <button type="submit"> Submit </button>
+          
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+
+    <!-- Footer -->
+    <footer class="footer">
+     <p align="center">
+        No Copyright - <a href="https://gabriellalohy.github.io/">Gabriella Lohy</a>
+      </p>
+  </footer>
+</html>
